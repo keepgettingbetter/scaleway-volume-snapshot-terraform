@@ -3,12 +3,12 @@
 ## Purpose
 
 This module automates the creation of snapshots for Scaleway block storage volumes. Should be used in
-conjuction with the [Docker image](https://github.com/my-awesome-project/scaleway-volume-snapshot-docker).
+conjuction with the [Docker image](https://github.com/keepgettingbetter/scaleway-volume-snapshot-docker).
 
 ## Usage
 
 - Setup the [scaleway provider](https://www.terraform.io/docs/providers/scaleway/index.html) in your tf file.
-- Follow the [instructions in the Docker image repository](https://github.com/my-awesome-project/scaleway-volume-snapshot-docker).
+- Follow the [instructions in the Docker image repository](https://github.com/keepgettingbetter/scaleway-volume-snapshot-docker).
 - Include this module in your tf file. Refer to [documentation](https://www.terraform.io/docs/modules/sources.html#generic-git-repository).
 
 Below a complete example of how to use this module in conjunction with the open source modules provided
