@@ -42,7 +42,7 @@ resource "scaleway_registry_namespace" "awesome" {
 
 # The snapshot module
 module "volume-snapshot-awesome-instance" {
-  source  = "git@github.com:my-awesome-project/scaleway-volume-snapshot-terraform.git"
+  source  = "keepgettingbetter/volume-snapshot/scaleway"
   version = "0.0.1"
 
   name         = "awesome-instance"
